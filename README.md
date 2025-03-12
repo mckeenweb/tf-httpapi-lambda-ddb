@@ -1,11 +1,11 @@
 # Commands to invoke api
 ```bash
-# Add movie
-INVOKE_URL=https://xxxxxxx.amazonaws.com
+# Add movie, api output after terraform run
+INVOKE_URL=https://ep6ml5tl60.execute-api.us-east-1.amazonaws.com
 curl \
   -X PUT \
   -H "Content-Type: application/json" \
-  -d '{"year": "2013", "title": "The Amazing Spider"}' \
+  -d '{"year": "2015", "title": "The Hustle"}' \
   ${INVOKE_URL}/topmovies
 
 # Get movie for a particular year

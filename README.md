@@ -1,7 +1,7 @@
 # Commands to invoke api
 ```bash
 # Add movie, api output after terraform run
-INVOKE_URL=https://dhuk972vu0.execute-api.us-east-1.amazonaws.com
+INVOKE_URL=https://sfmwte1nck.execute-api.us-east-1.amazonaws.com
 curl \
   -X PUT \
   -H "Content-Type: application/json" \

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#INVOKE_URL=$(terraform output -raw invoke_url)
-INVOKE_URL=https://sfmwte1nck.execute-api.us-east-1.amazonaws.com
+INVOKE_URL=$(terraform output -raw invoke_url)
+#INVOKE_URL=https://j4ik9n7gn0.execute-api.us-east-1.amazonaws.com
 # add movies
 echo "> add movies"
 for i in $(seq 2001 2003); do

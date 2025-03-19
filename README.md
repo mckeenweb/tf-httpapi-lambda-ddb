@@ -1,3 +1,7 @@
+# things to note
+No duplicate names in IAM `roles` and `policies`
+Should delete tf generated names in `roles` and `policies`
+
 # Commands to invoke api
 ```bash
 # Add movie, api output after terraform run

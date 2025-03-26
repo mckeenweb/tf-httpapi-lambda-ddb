@@ -1,6 +1,7 @@
-# things to note
+# THINGS TO NOTE
 No duplicate names in IAM `roles` and `policies`
 Should delete tf generated names in `roles` and `policies`
+this repo default branch is `solution`, it's fork from main because i used it for 2 different purpose using the same code.
 
 # Commands to invoke api
 ```bash
